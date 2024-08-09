@@ -1,0 +1,314 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #e3ecf2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-right:50px;
+    
+
+}
+
+.cta-btn{
+    background-color: #002594;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px goldenrod;
+    transition: 0.1s;
+    margin-right: 350px;
+}
+
+.cta-btn:hover{
+    background-color: yellow;
+    color: black;
+
+}
+
+.page-title{
+    background-color: #002594;
+    color: white;
+    padding:100px 150px ;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.dashboard{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.page-title-bar{
+    background-color: goldenrod;
+    width: 4px;
+    height: 50px;
+}
+
+.breadcrumbs{
+    padding: 10px 50px;
+}
+
+.breadcrumbs a{
+    color: black;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+.divider{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.register{
+    display: flex;
+    padding: 150px 20px;
+    justify-content: space-between;
+}
+
+.login-form{
+    box-shadow: 2px 3px 4px  rgb(214, 203, 203);
+    padding: 2px 20px;
+    width: 600px;
+    height: 300px;
+    margin-left: 120px;
+}
+
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.user{
+    margin-top: 30px;
+}
+
+.usernemail{
+    margin-top: 10px;
+}
+
+.pass{
+    margin-top: 10px;
+}
+
+.password{
+    margin-top: 10px;
+    
+}
+
+
+.remember-box{
+    display: flex;
+    margin-top: 10px;
+   
+
+}
+
+.remember{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(73, 73, 73);
+}
+
+.btn{
+    margin-top: 10px;
+    background-color:#F9C01E;
+    width: 560px;
+    height: 40px;
+    border: none;
+}
+
+.lost{
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.register-form{
+    box-shadow: 2px 3px 4px rgb(214, 203, 203);
+    padding: 2px 20px;
+    width: 600px;
+    height: 500px;
+    margin-right: 450px;
+}
+
+.register-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    margin-top: 30px;
+}
+.email-input{
+    margin-top: 10px;
+}
+.user{
+    margin-top: 10px;
+}
+.user-input{
+    margin-top: 10px;
+}
+
+.reg-password{
+    margin-top: 10px;
+}
+.pass-input{
+    margin-top: 10px;
+}
+.number{
+    margin-top: 10px;
+}
+.number-input{
+    margin-top: 10px;
+}
+
+.reg-btn{
+    margin-top: 20px;
+    background-color:#F9C01E;
+    width: 560px;
+    height: 40px;
+    border: none;
+}
+
+.footer{
+    display: flex;
+    background-color: #222222;
+    color: white;
+    height: 250px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: 40px;
+
+}
+
+.about-list{
+    list-style-type: none;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px;  
+    
+}
+.about-list li a{
+    text-decoration: none;
+    color: white;    
+}
+
+.about-us{
+    margin-top: 15px;
+}
+.contact-us{
+    margin-top: 15px;
+}
+.faqs{
+    margin-top: 15px;
+}
+.support{
+    margin-top: 15px;
+}
+
+.partner{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 40px;
+
+}
+
+.quicklinks{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.searchandsocials{
+    display: flex;
+    flex-direction: column;
+}
+.search-bar{
+    display: flex;
+    flex-direction:row;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.search-btn{
+    background-color:#F9C01E ; 
+    height: 40px;
+    width: 100px;
+}
+
+.search{
+    height: 40px;
+}
+
+.social{
+    margin-left: 150px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.social-icons{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.social-icons a{
+    text-decoration: none;
+}
+
+.icon{
+    margin-left: 30px;
+}
+
+.final-footer{
+    background-color: #000000;
+    text-align: center;
+    height: 50px;
+    color: white;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.last-footer{
+    background-color: #000000;
+    text-align: left;
+    padding-left: 1700px;
+    display: flex;
+    flex-direction:row;
+    float: right;
+}
+
+.whatsapp-btn{
+    height: 30px;
+    border-radius: 10px;
+    width: 90px;
+}
